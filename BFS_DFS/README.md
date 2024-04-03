@@ -8,7 +8,7 @@ This Python project demonstrates the implementation and visualization of Breadth
 
 A graph $G$ is represented as a collection of vertices and edges. The vertices are denoted as $v_1, v_2, ..., v_n$, where $n$ is the number of vertices. An edge $(v_i, v_j)$ connects vertex $v_i$ to vertex $v_j$.
 
-### Breadth-First Search ($BFS$)
+### Breadth-First Search (BFS)
 
 BFS is an algorithm for traversing or searching tree or graph data structures. It starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
 
@@ -22,7 +22,7 @@ BFS is an algorithm for traversing or searching tree or graph data structures. I
 - **Time Complexity**: $O(|V| + |E|)$, where $|V|$ is the number of vertices and $|E|$ is the number of edges.
 - **Space Complexity**: $O(|V|)$, where $|V|$ is the number of vertices.
 
-### Depth-First Search ($DFS$)
+### Depth-First Search (DFS)
 
 DFS is an algorithm for traversing or searching tree or graph data structures. It starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking.
 
