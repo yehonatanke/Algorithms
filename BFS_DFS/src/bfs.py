@@ -1,19 +1,6 @@
 from collections import deque
 
 
-# def bfs(graph, start):
-#     visited = set()
-#     queue = deque([start])
-#     traversal_path = []
-#
-#     while queue:
-#         vertex = queue.popleft()
-#         if vertex not in visited:
-#             traversal_path.append(vertex)
-#             visited.add(vertex)
-#             queue.extend(graph[vertex])
-#
-#     return traversal_path
 def bfs(graph, start):
     if start not in graph:
         raise ValueError("Starting vertex not in graph")
